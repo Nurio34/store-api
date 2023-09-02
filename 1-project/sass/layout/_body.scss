@@ -1,0 +1,36 @@
+
+:root {
+    --body : white;
+    --clock : white;
+    --shadodw : black;
+    --hour : black;
+    --hourPipe : black;
+    --minutePipe : gray;
+    --secondPipe : rgb(247, 0, 255);
+    --circleBorder : rgb(247, 0, 255);
+    --circleBg : black;
+    --btnShadow : white;
+    --opacity : 0.2;
+    --overlay : white;
+    --overOpac : 0.2
+}
+
+:root:has(body.night) {
+    --body : black;
+    --clock : black;
+    --shadodw : white;
+    --hour : white;
+    --hourPipe : white;
+    --minutePipe : gray;
+    --secondPipe : rgb(247, 0, 255);
+    --circleBorder : rgb(247, 0, 255)ed;
+    --circleBg : white;
+    --btnShadow : rgb(247, 0, 255);
+    --opacity : 0.6;
+    --overlay : black;
+    --overOpac : 0.8
+}
+
+body {
+
+}
